@@ -19,7 +19,8 @@ class BookFactory extends Factory
         return [
             'author'=>fake('hu_HU')->name(),
             'title'=>fake()->sentence(),
-            'pieces'=>rand(20,201)
+            'pieces'=>rand(0,201),
+            'prices'=>rand(1500,35000)
 
 
 

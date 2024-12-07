@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('author');
             $table->string('title');
             $table->integer('pieces')->default(100);
+            $table->integer('prices');
             $table->timestamps();
         });
     }
